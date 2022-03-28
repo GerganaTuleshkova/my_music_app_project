@@ -3,6 +3,7 @@ from django import forms
 from exam_project.exam_app.models import Profile, Album
 
 
+# from for creating profiles
 class CreateProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
