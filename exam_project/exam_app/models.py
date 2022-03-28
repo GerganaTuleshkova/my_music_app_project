@@ -17,6 +17,7 @@ class Profile(models.Model):
     )
 
 
+# second comment (for git purposes)
 class Album(models.Model):
     POP_MUSIC = 'Pop Music'
     JAZZ_MUSIC = 'Jazz Music'
